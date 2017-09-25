@@ -3,7 +3,7 @@ Arcade Game Clone-Udacity
 The main purpose of this project was to learn object oriented programming, instances and inheritance in Javascript.
 This project was provided with a pre-existing game engine, were we had to work on, and put in practice all the concepts learned.
 
-Game Objective
+Game Objective /n
 In this game you can control a character, and your main objective is to reach the water, while avoiding the enemy bugs, that randomly spawn and try to hit you. If you reach the water you win, and the game restarts from original position.
 
 Game Controls
