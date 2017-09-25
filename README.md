@@ -13,7 +13,7 @@ To play this game we must use the keyboard directional arrow keys to move the pl
 
 How to Start the Game ?
 
-You can click the link below
+Click here
 https://ralucabaila.github.io/2D-Game-Development/ 
 
 Enjoy it!
