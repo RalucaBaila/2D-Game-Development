@@ -2,6 +2,7 @@ var score = 0;
 function gameScore(){
     document.getElementById('score').innerHTML = "Score: " + score;
 }
+//console.log(score);
 // Enemies our player must avoid
 var Enemy = function(x,y,speed) {
     // Variables applied to each of our instances go here,
@@ -25,12 +26,16 @@ Enemy.prototype.update = function(dt) {
     // which will ensure the game runs at the same speed for
     // all computers.
     if (this.x >600){
+
         this.x = -101;
         this.x += this.speed *dt;
         //console.log("My bug position is " + this.x );
+
     } else {
         this.x += this.speed *dt +1;
-    }   
+        //console.log(" ELSE My bug position is " + this.x );
+    } 
+  
 };
 
 // Draw the enemy on the screen, required method for game
@@ -99,7 +104,6 @@ Player.prototype.handleInput = function(key) {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-
 
  var enemy1 = new Enemy(-100,60,280);
  var enemy2 = new Enemy(-100,140,300);
