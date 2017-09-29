@@ -1,3 +1,7 @@
+var score = 0;
+function gameScore(){
+    document.getElementById('score').innerHTML = "Score: " + score;
+}
 // Enemies our player must avoid
 var Enemy = function(x,y,speed) {
     // Variables applied to each of our instances go here,
@@ -67,6 +71,8 @@ Player.prototype.update = function() {
             console.log("bang");
              this.x =200;
              this.y = 400;
+             score +=1;
+             gameScore();
             }      
         }
     };
@@ -99,9 +105,9 @@ Player.prototype.handleInput = function(key) {
 // Place the player object in a variable called player
 
 
- var enemy1 = new Enemy(-100,60,120);
- var enemy2 = new Enemy(-100,140,100);
- var enemy3 = new Enemy(-100,240, 170);
+ var enemy1 = new Enemy(-100,60,280);
+ var enemy2 = new Enemy(-100,140,300);
+ var enemy3 = new Enemy(-100,240, 370);
 
 var allEnemies = [enemy1,enemy2,enemy3];
 var player = new Player();
