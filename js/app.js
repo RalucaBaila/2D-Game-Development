@@ -106,9 +106,9 @@ Player.prototype.handleInput = function(key) {
 // Place the player object in a variable called player
 
 
- var enemy1 = new Enemy(-100,60,120);
- var enemy2 = new Enemy(-100,140,100);
- var enemy3 = new Enemy(-100,240, 170);
+ var enemy1 = new Enemy(-100,60,280);
+ var enemy2 = new Enemy(-100,140,300);
+ var enemy3 = new Enemy(-100,240, 370);
 
 var allEnemies = [enemy1,enemy2,enemy3];
 var player = new Player();
