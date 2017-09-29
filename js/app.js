@@ -25,16 +25,12 @@ Enemy.prototype.update = function(dt) {
     // which will ensure the game runs at the same speed for
     // all computers.
     if (this.x >600){
-
         this.x = -101;
         this.x += this.speed *dt;
         //console.log("My bug position is " + this.x );
-
     } else {
         this.x += this.speed *dt +1;
-        //console.log(" ELSE My bug position is " + this.x );
-    } 
-  
+    }   
 };
 
 // Draw the enemy on the screen, required method for game
@@ -63,6 +59,8 @@ Player.prototype.update = function() {
         this.x =200;
         this.y = 400;
         console.log("You touched the water");
+        score +=1;
+        gameScore();
     }
 
     for (var i = 0; i < allEnemiesLength; i++) {
@@ -71,8 +69,6 @@ Player.prototype.update = function() {
             console.log("bang");
              this.x =200;
              this.y = 400;
-             score +=1;
-             gameScore();
             }      
         }
     };
