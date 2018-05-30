@@ -1,21 +1,20 @@
-Arcade Game Clone-Udacity
+Arcade Game Clone
 
-The main purpose of this project was to learn object oriented programming, instances and inheritance in Javascript.
-This project was provided with a pre-existing game engine, were we had to work on, and put in practice all the concepts learned.
+This game is part of a project from Udacity Nanodegree program
 
-Game Objective 
+Game Objective
 
-In this game you can control a character, and your main objective is to reach the water, while avoiding the enemy bugs, that randomly spawn and try to hit you. If you reach the water you win, and the game restarts from original position.
+In this game you control the character Player, and your main objective is to reach the water, while avoiding the enemy bugs, that randomly spawn and try to hit you.
+In case you reach the water you win, and the game restarts from original position.
 
 Game Controls
 
-To play this game we must use the keyboard directional arrow keys to move the player around, and avoid the bugs, while trying to reach the water.
+To move the player you can use the keyboard arrow keys, up, down, left and right, to move the player around the map.
 
-How to Start the Game ?
+How to Start the Game
 
-Click here
-https://ralucabaila.github.io/2D-Game-Development/ 
+To start the game you  have to load the index.html file on to the browser to load the game locally.
+You can find this and all the rest of the files on my github page.
+You can play as well directly clicking on the link https://ralucabaila.github.io/2D-Game-Development/
 
 Enjoy it!
-
-
